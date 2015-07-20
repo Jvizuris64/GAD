@@ -1,0 +1,16 @@
+using UnityEngine;
+using System.Collections;
+
+public class Homework_2 : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+		print ("Hey,look. Jonathan actually did the Homework!");
+
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
