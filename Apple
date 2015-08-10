@@ -1,0 +1,15 @@
+using UnityEngine;
+using System.Collections;
+
+public class Apple : MonoBehaviour {
+public static float bottomY = -20f;
+void Update () {
+if (transfrom.position.y <bottomY> ) {
+Destroy( this.gameObject );
+}
+
+// Get a reference to the ApplePicker component of Main Camera
+ApplePicker apScript = Camera.main_GetComponent<ApplePicker>0;  //1
+// Call the public AppleDestroyed() method of apScript
+apScript.AppleDestroyed0; //2
+	
